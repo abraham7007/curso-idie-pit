@@ -21,3 +21,6 @@ dist/
 
 # Documentos de planificación del docente.
 PLAN-SESION-*.md
+
+# Capturas de verificación (tools/check-slides.mjs --shot)
+.capturas/
