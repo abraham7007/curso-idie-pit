@@ -93,7 +93,6 @@ L.append(agenda(
           "Términos de la inversión y Perú",
           "Cooperación y fondos internacionales"]),
     ],
-    franja=("Receso", "10 minutos, entre el tema 01 y el tema 02"),
     notas=[
         "Presentar los dos temas y las tres unidades de cada uno.",
         "Tiempo: apertura, 5 min; tema 01, 75 min; receso, 10 min; tema 02, 80 min; cierre, "

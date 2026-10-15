@@ -106,7 +106,6 @@ L.append(agenda(
           "Cadena de resultados y teoría del cambio",
           "Plan de trabajo, equipo y acuerdos"]),
     ],
-    franja=("Receso", "10 minutos, entre el tema 01 y el tema 02"),
     notas=[
         "Presentar los dos temas y las tres unidades de cada uno.",
         "Tiempo: apertura, 5 min; tema 01, 77 min; receso, 10 min; tema 02, 77 min; cierre, "
@@ -1187,7 +1186,7 @@ L.append(tarjetas(
     [
         ("Responsable técnico", "Maestría o doctorado; 3 proyectos o 3 artículos en el área, "
                                 "o una combinación"),
-        ("Coinvestigador", "De 2 a 6, al menos uno de otra disciplina"),
+        ("Coinvestigador", "Entre 2 y 6, al menos uno de otra disciplina"),
         ("Usuario final", "Responsable técnico o coinvestigador de la entidad usuaria de la "
                           "tecnología"),
         ("Gestor tecnológico", "Paquete tecnológico, viabilidad de patente y propiedad "
@@ -1317,7 +1316,7 @@ L.append(cierre(
         "Diagnóstico: problema con magnitud, objetivos verificables y antecedentes declarados",
         "Plan: matriz con indicadores, cronograma con hitos y equipo con anexos firmados",
     ],
-    ("Sesión 5", "Del proyecto ganado al resultado transferido"),
+    ("Sesión 5", "Ejecución del proyecto y transferencia de resultados"),
     notas=[
         "Recapitular la sesión: los documentos y la cartilla del concurso, el diagnóstico del "
         "problema, los objetivos y antecedentes, la matriz con sus indicadores, el cronograma "

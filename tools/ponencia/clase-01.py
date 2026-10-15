@@ -82,7 +82,6 @@ L.append(agenda(
         ("Institucionalidad del sistema peruano",
          ["Actores y programas de apoyo", "Indicadores de CTI del Perú", "Elegibilidad y entidad de destino"]),
     ],
-    franja=("Receso", "10 minutos, entre el tema 01 y el tema 02"),
     notas=[
         "Presentar los dos temas y las tres unidades de cada uno.",
         "Tiempo: apertura, 5 min; tema 01, 75 min; receso, 10 min; tema 02, 80 min; cierre, "
@@ -600,9 +599,9 @@ L.append(visual(
     "02 · Rangos de TRL por concurso",
     "TRL de entrada y de salida en los concursos de *PROCIENCIA*, 2026",
     rangos_trl([
-        ("Proyectos avanzados", "Investigación aplicada · de 2–3 a 3–4", 2.5, 3.5, False),
+        ("Proyectos avanzados", "Investigación aplicada · entrada en 2–3 · salida en 3–4", 2.5, 3.5, False),
         ("Multidisciplinarios", "Investigación aplicada · salida en 4 o más", 2, 4, False),
-        ("Desarrollo Tecnológico", "De 4–5 a 6 o más", 4.5, 6, True),
+        ("Desarrollo Tecnológico", "Entrada en 4–5 · salida en 6 o más", 4.5, 6, True),
     ]),
     fuente="PROCIENCIA, bases E041-2026-02 y E041-2026-03",
     notas=[

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sesión 5 · Del proyecto ganado al resultado transferido — formato ponencia (11.ª edición).
+"""Sesión 5 · Ejecución del proyecto y transferencia de resultados — formato ponencia (11.ª edición).
 
 Temas: «Ejecución, presupuesto y rendición del proyecto» (tema 01: ciclo del
 contrato, documentos de gestión, transferencia a una entidad pública, rubros y
@@ -251,7 +251,7 @@ def rec(clave):
 L.append(portada(
     "portada",
     "Sesión 5 · Diseño y Gestión de Proyectos {I+D+i+e}",
-    "Del proyecto ganado al resultado transferido",
+    "Ejecución del proyecto y transferencia de resultados",
     "Ejecución de un proyecto subvencionado por PROCIENCIA y destino de sus resultados al cierre",
     ["Ejecución, presupuesto y rendición del proyecto",
      "Registro, difusión, valorización y transferencia de resultados"],
@@ -274,7 +274,7 @@ L.append(agenda(
     "Temas y contenidos de la sesión 5",
     [
         ("Ejecución, presupuesto y rendición del proyecto",
-         ["Del concurso al contrato",
+         ["Resultado del concurso y firma del contrato",
           "Presupuesto por rubros y contrapartida",
           "Seguimiento, cambios y cierre"]),
         ("Registro, difusión, valorización y transferencia de resultados",
@@ -282,7 +282,6 @@ L.append(agenda(
           "Publicación y datos abiertos",
           "Valorización y transferencia"]),
     ],
-    franja=("Receso", "10 minutos, entre el tema 01 y el tema 02"),
     notas=[
         "Presentar los dos temas y las tres unidades de cada uno.",
         "Tiempo: apertura, 5 min; tema 01, 76 min; receso, 10 min; tema 02, 79 min; cierre, "
@@ -304,13 +303,13 @@ L.append(seccion(
         "Presentar el tema 01, que sigue la vida del contrato de subvención: lo que se firma y "
         "se aprueba al inicio, lo que se puede pagar y con qué tope, lo que se revisa en cada "
         "hito y lo que se entrega para cerrar.",
-        "Tiempo: 76 minutos; presentación del tema, 1; del concurso al contrato, 24; "
+        "Tiempo: 76 minutos; presentación del tema, 1; resultado del concurso y firma del contrato, 24; "
         "presupuesto por rubros y contrapartida, 25; seguimiento, cambios y cierre, 23; "
         "síntesis, 3.",
     ],
 ))
 
-# ---------- U1 · Del concurso al contrato
+# ---------- U1 · Resultado del concurso y firma del contrato
 
 L.append(visual(
     "ciclo-de-ejecucion",
@@ -1353,7 +1352,7 @@ L.append(cierre(
 L.append(cierre(
     "sintesis-sesion",
     "Cierre",
-    "Del contrato de subvención a la *transferencia* del resultado",
+    "Ejecución del contrato de subvención y *transferencia* del resultado",
     [
         "Ejecución: contrato, POP, gasto elegible, hitos y oficio de cierre",
         "Resultados: protección, acceso abierto, paquete y valorización",
@@ -1419,4 +1418,4 @@ def _sin_corte(lam):
 
 L = [_sin_corte(lam) for lam in L]
 
-construir("clase-05", "Sesión 5 · Del proyecto ganado al resultado transferido", L)
+construir("clase-05", "Sesión 5 · Ejecución del proyecto y transferencia de resultados", L)

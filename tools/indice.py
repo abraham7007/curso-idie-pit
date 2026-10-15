@@ -39,7 +39,7 @@ SESIONES = [
      "Diagnóstico del problema y objetivos de una propuesta de I+D+i según la "
      "cartilla de evaluación de un concurso, y marco lógico con el plan de trabajo "
      "del proyecto."),
-    ("05", "Del proyecto ganado al resultado transferido",
+    ("05", "Ejecución del proyecto y transferencia de resultados",
      "Ejecución y rendición de un proyecto subvencionado por PROCIENCIA, y "
      "protección y transferencia de sus resultados al cierre del contrato."),
     ("06", "<i>Pitch</i> y sustentación de proyectos",

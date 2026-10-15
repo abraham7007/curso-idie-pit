@@ -14,7 +14,7 @@ apoyo en las **notas del docente** (tecla **N**).
 | 2 · *Startups*, *spin-offs* y transferencia | **Rediseñada** · 40 láminas · sesión expositiva · 6 láminas de recursos con QR · `tools/ponencia/clase-02.py` |
 | 3 · Mapa de financiamiento e inversión | **Rediseñada** · 38 láminas · sesión expositiva · 6 láminas de recursos con QR · `tools/ponencia/clase-03.py` |
 | 4 · Formulación de proyectos | **Rediseñada** · 40 láminas · sesión expositiva · 6 láminas de recursos con QR · `tools/ponencia/clase-04.py` |
-| 5 · Del proyecto ganado al resultado transferido | **Rediseñada** · 40 láminas · sesión expositiva · 6 láminas de recursos con QR · `tools/ponencia/clase-05.py` |
+| 5 · Ejecución del proyecto y transferencia de resultados | **Rediseñada** · 40 láminas · sesión expositiva · 6 láminas de recursos con QR · `tools/ponencia/clase-05.py` |
 | 6 · Pitch y sustentación de proyectos | **Rediseñada** · 24 láminas · bloque único de 90 min · 3 láminas de recursos con QR · `tools/ponencia/clase-06.py` |
 
 ```
