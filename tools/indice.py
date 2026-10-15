@@ -27,24 +27,24 @@ RAIZ = pathlib.Path(__file__).resolve().parent.parent
 # no sabría que va a haberla.
 SESIONES = [
     ("01", "Fundamentos y ecosistema I+D+i+e",
-     "Qué cuenta como I+D, la escala de madurez tecnológica y el mapa del "
-     "sistema peruano de ciencia, tecnología e innovación."),
+     "Clasificación y madurez tecnológica de una idea de proyecto, e "
+     "institucionalidad del sistema peruano de ciencia, tecnología e innovación."),
     ("02", "<i>Startups</i>, <i>spin-offs</i> y transferencia",
-     "Las figuras con las que un resultado de investigación sale de la "
-     "universidad, y qué exige cada una."),
+     "Vías de transferencia, titularidad y protección de resultados de "
+     "investigación, y creación de empresas de base tecnológica en el Perú."),
     ("03", "Mapa de financiamiento e inversión",
-     "Los instrumentos disponibles, quién los opera y con qué contrapartida "
-     "se accede a cada uno."),
+     "Instrumentos públicos de financiamiento de la I+D+i y su contrapartida, "
+     "e inversión privada e internacional según la etapa de madurez."),
     ("04", "Formulación de proyectos",
-     "Del problema al marco lógico: objetivos, indicadores, supuestos y la "
-     "evidencia que sostiene cada uno."),
+     "Diagnóstico del problema y objetivos de una propuesta de I+D+i según la "
+     "cartilla de evaluación de un concurso, y marco lógico con el plan de trabajo "
+     "del proyecto."),
     ("05", "Del proyecto ganado al resultado transferido",
-     "Presupuesto por partidas, convenio y rendición, documentación del "
-     "desarrollo, registro y difusión de los resultados, y las alternativas "
-     "de transferencia con su valorización."),
-    ("06", "<i>Pitch Elevator</i> y tendencias mundiales en I+D+i+e",
-     "Defensa ante un comité y hacia dónde va el ecosistema global, con cuánta "
-     "de la cooperación internacional acaba llegando al Perú y por qué vía."),
+     "Ejecución y rendición de un proyecto subvencionado por PROCIENCIA, y "
+     "protección y transferencia de sus resultados al cierre del contrato."),
+    ("06", "<i>Pitch</i> y sustentación de proyectos",
+     "Estructura de un <i>pitch</i> de ciencia y tecnología según la audiencia, y "
+     "sustentación de un proyecto ante el comité de un fondo o ante inversionistas."),
 ]
 
 
@@ -79,8 +79,6 @@ def tarjeta(numero: str, titulo: str, sumario: str, estado: dict | None) -> str:
         return f"""\t\t\t\t<article class="idx__card idx__card--pendiente">
 \t\t\t\t\t<span class="idx__n">{numero}</span>
 \t\t\t\t\t<h2 class="idx__title">{titulo}</h2>
-\t\t\t\t\t<p class="idx__lede">{sumario}</p>
-\t\t\t\t\t<span class="idx__estado">En preparación</span>
 \t\t\t\t</article>"""
     # La tarjeta es un <div> y no un <a>: lleva dentro el enlace al PDF, y un
     # ancla dentro de otra no es HTML válido. El enlace principal cubre la
@@ -94,10 +92,7 @@ def tarjeta(numero: str, titulo: str, sumario: str, estado: dict | None) -> str:
 \t\t\t\t\t<h2 class="idx__title">
 \t\t\t\t\t\t<a class="idx__go" href="{estado['primera']}">{titulo}</a>
 \t\t\t\t\t</h2>
-\t\t\t\t\t<p class="idx__lede">{sumario}</p>
-\t\t\t\t\t<span class="idx__estado idx__estado--lista">
-\t\t\t\t\t\tDisponible
-\t\t\t\t\t</span>{pdf}
+{pdf}
 \t\t\t\t</div>"""
 
 
@@ -127,20 +122,17 @@ def main() -> None:
 \t\t<link rel="preconnect" href="https://fonts.googleapis.com" />
 \t\t<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 \t\t<link
-\t\t\thref="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap"
+\t\t\thref="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap"
 \t\t\trel="stylesheet"
 \t\t/>
-\t\t<link rel="stylesheet" href="/src/css/base.css" />
+\t\t<link rel="stylesheet" href="/src/css/indice.css" />
 \t</head>
 \t<body class="idx">
+\t\t<div class="idx__reticula" aria-hidden="true"></div>
 \t\t<main class="idx__wrap">
 \t\t\t<header class="idx__head">
 \t\t\t\t<span class="idx__eyebrow">Programa de Iniciación Tecnológica · OTI-UNI</span>
-\t\t\t\t<h1 class="idx__h1">Diseño y Gestión de Proyectos I+D+i+e</h1>
-\t\t\t\t<p class="idx__sub">
-\t\t\t\t\tDécima edición · seis sesiones de tres horas · fondos, instrumentos
-\t\t\t\t\ty herramientas para formular un proyecto
-\t\t\t\t</p>
+\t\t\t\t<h1 class="idx__h1">Diseño y Gestión de Proyectos <em>I+D+i+e</em></h1>
 {presentar}
 \t\t\t</header>
 

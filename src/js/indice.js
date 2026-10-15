@@ -10,7 +10,7 @@
    No monta la lista de sesiones: eso lo escribe tools/indice.py leyendo las
    carpetas de láminas, porque el recuento cambia con cada construcción. */
 
-const CLAVE_TEMA = "idie-theme";
+const CLAVE_TEMA = "idie-deck-theme";
 
 const guardado = localStorage.getItem(CLAVE_TEMA);
 if (guardado === "dark" || guardado === "light") {

@@ -1,4 +1,59 @@
-# Diseño y Gestión de Proyectos I+D+i+e · 10ma edición
+# Diseño y Gestión de Proyectos I+D+i+e · 11.ª edición
+
+## Formato ponencia (rediseño en curso, octubre de 2026)
+
+La 10.ª edición resultó pesada: unas 150 palabras por lámina, recuadros que
+decían lo que el docente debía decir y conceptos repetidos entre sesiones. La
+11.ª edición rehace el curso como **ponencia**: una idea por lámina, titular
+corto que afirma algo, un solo acento rojo, gráficos simples y el texto de
+apoyo en las **notas del docente** (tecla **N**).
+
+| Sesión | Estado |
+|---|---|
+| 1 · Fundamentos y ecosistema | **Rediseñada** · 39 láminas · sesión expositiva, sin actividades · 6 láminas de recursos recomendados con QR · `tools/ponencia/clase-01.py` |
+| 2 · *Startups*, *spin-offs* y transferencia | **Rediseñada** · 40 láminas · sesión expositiva · 6 láminas de recursos con QR · `tools/ponencia/clase-02.py` |
+| 3 · Mapa de financiamiento e inversión | **Rediseñada** · 38 láminas · sesión expositiva · 6 láminas de recursos con QR · `tools/ponencia/clase-03.py` |
+| 4 · Formulación de proyectos | **Rediseñada** · 40 láminas · sesión expositiva · 6 láminas de recursos con QR · `tools/ponencia/clase-04.py` |
+| 5 · Del proyecto ganado al resultado transferido | **Rediseñada** · 40 láminas · sesión expositiva · 6 láminas de recursos con QR · `tools/ponencia/clase-05.py` |
+| 6 · Pitch y sustentación de proyectos | **Rediseñada** · 24 láminas · bloque único de 90 min · 3 láminas de recursos con QR · `tools/ponencia/clase-06.py` |
+
+```
+src/css/ponencia.css            sistema visual nuevo (lienzo 16:9 escalable)
+src/js/ponencia.js              deck.js + atajos N (notas), T (tema), Espacio
+tools/ponencia/plantillas.py    12 plantillas: portada, sección, cifra, frase,
+                                tarjetas, dúo, pasos, visual, caso, pregunta,
+                                cierre, referencias
+tools/ponencia/graficos.py      gráficos SVG en línea que siguen el tema
+tools/ponencia/clase-01.py      guion de la sesión 1 (texto + notas + fuentes)
+
+python3 tools/ponencia/clase-01.py     regenera las láminas de la sesión 1
+```
+
+Reglas del formato: titular de 12 palabras como máximo; 15 a 25 palabras
+visibles por lámina (tope 40); `*palabra*` marca el único acento rojo; las
+cifras llevan una línea de fuente en el pie y la referencia completa en la
+última lámina, numerada automáticamente.
+
+Redacción: registro impersonal (titulares en sintagma nominal, definiciones en
+tercera persona, sin segunda persona, aforismos, metáforas ni preguntas
+retóricas). Se verifica con la skill de usuario `correccion-anti-ia`:
+
+```
+python3 ~/.claude/skills/correccion-anti-ia/scripts/escanear.py tools/ponencia/clase-01.py --formato laminas --min MEDIA
+```
+
+Hallazgos que quedan y son correctos: las tres preguntas de investigación de
+la lámina de tipos de I+D (ejemplos citados) y los pares «término: criterio»
+de las síntesis.
+
+El guion antiguo `tools/clases/clase-01.py` queda como referencia y está
+bloqueado para que no sobrescriba la versión nueva. Las reglas de densidad de
+`../METODOLOGIA.md` (40-48 láminas, dos recuadros por lámina, pie de figura)
+no aplican al formato ponencia.
+
+---
+
+## Edición anterior (10.ª)
 
 Curso del Programa de Iniciación Tecnológica (PIT) de la **OTI-UNI**. Esta
 edición se construye en diapositivas HTML siguiendo

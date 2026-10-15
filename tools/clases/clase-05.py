@@ -21,6 +21,13 @@ Uso:  python3 tools/clases/clase-05.py
 
 from __future__ import annotations
 
+import sys as _sys
+_sys.exit(
+    "Sesión 5 ya se rehízo en formato ponencia (11.ª edición): "
+    "usa python3 tools/ponencia/clase-05.py. Este guion queda solo como referencia "
+    "y, si se ejecutara, sobrescribiría las láminas nuevas."
+)
+
 import sys
 from pathlib import Path
 
