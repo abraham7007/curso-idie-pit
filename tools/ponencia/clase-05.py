@@ -1057,7 +1057,7 @@ L.append(pasos(
     [
         ("Productos", "Artículo o manuscrito, tesis, datos y plan de gestión de datos"),
         ("Repositorio institucional", "De la entidad o, si no es posible, del CONCYTEC"),
-        ("Cosecha nacional", "ALICIA, Repositorio Nacional Digital"),
+        ("Repositorio nacional", "ALICIA, que integra los repositorios del país"),
         ("Acceso abierto", "Lectura y descarga sin registro, suscripción ni pago"),
     ],
     clave=1,
@@ -1078,10 +1078,10 @@ L.append(pasos(
         "subvencionado por el CONCYTEC a través del programa PROCIENCIA en el marco del "
         "concurso […], según contrato [número]» (num. 3.6).",
         "ALICIA (Acceso Libre a Información Científica para la Innovación) es el repositorio "
-        "nacional que cosecha los repositorios institucionales. El cargo de publicación en una revista de acceso abierto es "
+        "nacional que reúne los registros de los repositorios institucionales. El cargo de publicación en una revista de acceso abierto es "
         "financiable como servicio de terceros (Anexo 8).",
         "Verificar antes de la clase: si el repositorio de la UNI está integrado en la red "
-        "nacional que cosecha ALICIA.",
+        "nacional cuyos registros reúne ALICIA.",
     ],
 ))
 
