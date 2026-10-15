@@ -198,7 +198,6 @@ L.append(agenda(
           "Preguntas técnicas y financieras del jurado",
           "Síntesis de la sesión y de las seis sesiones del curso"]),
     ],
-    franja=("Duración", "90 minutos en un bloque único"),
     notas=[
         "Presentar las tres unidades del tema y el cierre del curso.",
         "Tiempo: apertura, 4 min; relato técnico y audiencias, 27; estructura y material de "
